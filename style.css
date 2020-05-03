@@ -1,0 +1,96 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+#advertistment{
+    background-color: #ff0000;
+    color: black;
+    padding: 15px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    width: 400px;
+}
+h1 {
+    font-family: 'Teko SemiBold';
+    font-size: 72pt;
+}
+h2 {
+    font-size: 24pt;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 50px;
+}
+#splash {
+    background-image: url("heading.jpg");
+    background-size: cover;
+    height: 400px;
+    margin-left: 35px;
+}
+/* === Layout === */
+.floatimage {
+    float: left;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* === Background ===*/
+body {
+    background-color: #cdcdcd;
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+    padding: 150px;
+    position: absolute;
+}
+header {
+    background-color: #000000;
+    padding: 15px;
+    padding-top: 75px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+    
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+#splash {
+    grid-column-start:1;
+    grid-column-end:3;   
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foodarticles {
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding: 20px;
+}
+footer {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 15px;
+    width: 100%;
+    text-align:center;
+    bottom: 0px;
+    left: 0px;
+}
+.sidebar {
+      width: 400px;
+    float: right;  
+}
